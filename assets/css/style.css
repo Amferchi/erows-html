@@ -10223,6 +10223,7 @@ textarea{
 
 .card-item{
     background-color: rgb(228, 223, 223);
+    margin:10px;
 }
 
 .card-item h5:nth-child(2){
@@ -10282,9 +10283,6 @@ textarea{
     margin-bottom: 6% !important;
 }
 
-.v-footer .display-flex span{
-   
-}
 
 .footer .div-center h5:nth-child(1){
     padding-left: 30%;
@@ -10371,6 +10369,11 @@ button:focus{
       .dot-circle{
         margin-right: 4% !important;
       }
+      .card-item:not(img){
+        margin:auto auto;
+        border:5px solid #F5F5F5;
+      }
+      
 }
 
  @media(min-width:800px){
