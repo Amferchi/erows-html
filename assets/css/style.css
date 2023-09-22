@@ -10008,6 +10008,13 @@
     position: relative;
 }
 
+.search-inp::placeholder{
+   padding-left: 40px !important;
+}
+
+.search-inp::-moz-placeholder{
+  padding-left: 40px !important;
+}
 
 .search-inp {
     margin: 0px;
@@ -10355,6 +10362,12 @@ button:focus{
      top: 10px !important;
 }
 
+.input-container .fa-circle{
+   position: absolute;
+   left:25px;
+   top: 17px;
+}
+
 @media(max-width: 768px){
     .home-nav{
         margin-bottom: 100px;
@@ -10424,6 +10437,15 @@ button:focus{
       max-width: 100% !important;
       max-height: 100%;
       margin-bottom: 0;
+    }
+
+    #largermic-img{
+      max-width: 100% !important;
+    }
+
+    .input-container h5{
+       top: 55px;
+       right:50px;
     }
 }
 
