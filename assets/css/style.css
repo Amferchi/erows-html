@@ -10546,11 +10546,12 @@ button:focus{
 
 .g-cat-cont{
   position: relative;
+  width: 40%;
 }
 
 .g-cat-cont button{
   height: 50px;
-  width: 350px;
+  width: 300px;
 }
 
 .g-cat-cont span.text-sm{
