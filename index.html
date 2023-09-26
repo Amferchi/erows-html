@@ -4,43 +4,94 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             <link rel="stylesheet" href="assets/css/style.css">
-      <title>Document</title>
+      <title>home</title>
     </head>
     <body class="home-body">
       <nav class="navbar navbar-expand-lg navbar-light home-nav">
-          <a class="navbar-brand"><img src="assets\images\logo.png"></a>
-          <button class="btn btn-outline-dark ml-auto mr-2 no-display"><span class="fa-regular fa-bell text-light"></span></button>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="fa fa-square"></span>
-          </button>  
-          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item brand-name">
-          <a class="nav-link text-dark text-Lfont brandy-name" href="#">allemusikinstrumente<span class="text-danger">.de</span></a>
-          <a class="nav-link text-dark text-sm quote">Tous les produits utilisés</a>
-              </li>
-              <li class="nav-item">
-               <a class="nav-link text-danger" href="#">Accueil</a>
-                    </li> 
-               <span class="vertical-bar">&vert;</span>
-           <li class="nav-item">
-                <a class="nav-link" href="#">Nous contacter</a>
-                    </li>
-                   <span class="vertical-bar">&vert;</span>
-      
+         <a class="navbar-brand"><img src="assets\images\logo.png"></a>
+         <div class="quote-div"><h5 class="sa-menu quote-phone">Tous les produits utilisés</h5></div>
+         <button class="btn btn-outline-dark ml-auto mr-2 no-display"><span class="fa-regular fa-bell text-light"></span></button>
+         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+           <span class="fa fa-square"></span>
+         </button>  
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+             <li class="nav-item brand-name">
+         <a class="nav-link text-dark text-Lfont brandy-name la-menu" href="#">allemusikinstrumente<span class="text-danger">.de</span></a>
+         <a class="nav-link text-dark text-sm quote la-menu">Tous les produits utilisés</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link text-danger" href="#"><span class="phone-menu-icons fa fa-ring text-danger pr-4 sa-menu"></span>Accueil</a>
+                   </li>
+              <span class="vertical-bar la-menu">&vert;</span>
           <li class="nav-item">
-                 <a class="nav-link"  href="#">Parcourir les catégories</a>
-           </li>
-           <li class="nav-item text-Lfont"><button class="btn btn-outline-dark btn-bd-ra btn-nav"><i class="fa-regular fa-bell"></i> Mes alertes</button></li>  
-           <li class="nav-item">
-               <a class="nav-link text-Lfont"><span class="fa fa-search"></span></a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link"><span class="fa fa-ring"></span></a>
-        </li> 
-           </ul>
-           </div>        
-        </nav>
+               <a class="nav-link" href="#"><span class="phone-menu-icons fa-regular fa-circle fa-xs pr-4 sa-menu"></span>Nous contacter</a>
+                   </li>
+                  <span class="vertical-bar la-menu">&vert;</span>
+     
+         <li class="nav-item">
+                <a class="nav-link"  href="#"><span class="phone-menu-icons fa fa-square pr-4 sa-menu"></span>Parcourir les catégories</a>
+          </li>
+          <li class="nav-item sa-menu">
+             <a class="nav-link"  href="#"><span class="phone-menu-icons fa fa-egg pr-4 text-danger"></span>Afficher mon historique</a>
+         </li>
+      <li class="nav-item dropdown sa-menu">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="phone-menu-icons fa-regular fa-circle pr-4 text-danger fa-xsm mb-4"></span>Mon compte
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="#"><span class="fa-regular fa-circle fa-xsm text-danger pr-4 mb-4"></span>Créer un compte</a>
+               <a class="dropdown-item open-connex"><span class="fa fa-arrow-left text-danger pr-4"></span>Me connecter</a>
+       </div>
+     </li>
+          <li class="nav-item text-Lfont la-menu"><button class="btn btn-outline-dark btn-bd-ra btn-nav"><i class="fa-regular fa-bell"></i> Mes alertes</button></li>  
+          <li class="nav-item la-menu">
+              <a class="nav-link text-Lfont"><span class="fa-regular fa-heart"></span></a>
+          </li>
+          <li class="nav-item la-menu opn">
+           <a class="nav-link"><span class="fa fa-ring cursor-pointer openSidebar"></span></a>
+       </li>
+      <li class="nav-item dropdown la-menu opn">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa-regular fa-circle fa-xsm mb-4 pt-1"></span></a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="#"><span class="fa-regular fa-circle fa-xsm text-danger pr-4 mb-4"></span>Créer un compte</a>
+               <a class="dropdown-item open-connex"><span class="fa fa-arrow-left text-danger pr-4"></span>Me connecter</a>
+       </div>
+     </li>
+          </ul>
+          </div>        
+       </nav>
+      <div class="connex-positon">
+       <div class="connexion col-md-4">
+          <div class="container">
+            <div class="display-flex mt-5 mb-5">
+               <h4 class="text-Lfont pr-8">Connexion</h4>
+               <span class="fa fa-times pl-5 pt-2 cursor-pointer close-connex"></span>
+            </div>
+            <br>
+            <div class="g-connex mb-4">
+             <input class="btn-lg mr-4 w-100 text-md form-control" placeholder="Renseignez votre email">
+             <span class="text-sm">Requis</span>
+             <span class="pl-5 fa fa-angle-down"></span>
+             <span class="text-sm">Email</span>
+           </div>
+           <div class="g-connex mb-4">
+             <input class="btn-lg mr-4 w-100 text-md form-control">
+             <span class="text-sm">Requis</span>
+             <span class="pl-5 fa fa-angle-down"></span>
+             <span class="text-sm">Mot de passe</span>
+           </div>
+           <h5 class="text-danger mb-5 text-md">Mot de passe oublié</h5>
+           <button class="mb-4 form-control btn btn-danger btn-bd-ra">Me connecter</button>
+           <hr>
+           <br>
+           <button class="btn btn-outline-info form-control mb-3 btn-bd-ra">Continuer avec Google</button>
+           <button class="btn btn-outline-info form-control mb-4 btn-bd-ra">Continuer avec Facebook</button>
+           <hr>
+           <br>
+           <button class="btn btn-outline-danger form-control mb-5 btn-bd-ra">Créer mon compte</button>
+          </div>
+       </div>
+     </div>
   <div class="container">
        <h2 class="text-center text-light">Nous trouvons ce que vous recherchez.</h2>
        <p></p>
@@ -115,7 +166,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>           
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -124,7 +175,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>           
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -133,7 +184,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>            
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -145,7 +196,7 @@
             </h5>  
             <div class="display-flex">
                <span class="text-danger text-sm pl-2">2 234 articles</span>
-               <button class=""><span class="fa fa-arrow-right"></span></button>
+               <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
             </div>       
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4">   
@@ -157,7 +208,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>           
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4">
@@ -169,7 +220,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens </h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>            
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item"> 
@@ -178,7 +229,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens </h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>            
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -187,7 +238,7 @@
             <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
             <div class="display-flex">
                <span class="text-danger text-sm pl-2">2 234 articles</span>
-               <button class=""><span class="fa fa-arrow-right"></span></button>
+               <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
             </div>            
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">  
@@ -196,7 +247,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>  
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -205,7 +256,7 @@
        <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
        <div class="display-flex">
          <span class="text-danger text-sm pl-2">2 234 articles</span>
-         <button class=""><span class="fa fa-arrow-right"></span></button>
+         <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
       </div>  
          </div>
         <div class=" col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">
@@ -214,7 +265,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>  
          </div>
         <div class=" col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item">  
@@ -223,7 +274,7 @@
            <h5 class="text-sm">Matériel de scène, chevalet et autres accessoires pour musiciens</h5>
            <div class="display-flex">
             <span class="text-danger text-sm pl-2">2 234 articles</span>
-            <button class=""><span class="fa fa-arrow-right"></span></button>
+            <button class="in-arr-btn"><span class="fa fa-arrow-right"></span></button>
          </div>  
          </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-item w-100 la-card-item">
@@ -500,7 +551,9 @@ correspondant exactement à vos critères de recherche. Vous ne ratez plus aucun
        </div>
   </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="assets/js/main.js"></script>
     </body>
     </html>
