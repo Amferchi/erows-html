@@ -9,45 +9,96 @@
     <body class="alert-body">
       <nav class="navbar navbar-expand-lg navbar-light main-nav">
         <a class="navbar-brand"><img src="assets\images\logo.png"></a>
+        <div class="quote-div"><h5 class="sa-menu quote-phone">Tous les produits utilisés</h5></div>
         <button class="btn btn-outline-dark ml-auto mr-2 no-display"><span class="fa-regular fa-bell text-light"></span></button>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="fa fa-square"></span>
         </button>  
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item brand-name">
-        <a class="nav-link text-dark text-Lfont brandy-name" href="#">allemusikinstrumente<span class="text-danger">.de</span></a>
-        <a class="nav-link text-dark text-sm quote">Tous les produits utilisés</a>
+        <a class="nav-link text-dark text-Lfont brandy-name la-menu" href="#">allemusikinstrumente<span class="text-danger">.de</span></a>
+        <a class="nav-link text-dark text-sm quote la-menu">Tous les produits utilisés</a>
             </li>
             <li class="nav-item">
-             <a class="nav-link text-danger" href="#">Accueil</a>
-                  </li> 
-             <span class="vertical-bar">&vert;</span>
-         <li class="nav-item">
-              <a class="nav-link" href="#">Nous contacter</a>
+             <a class="nav-link text-danger" href="#"><span class="phone-menu-icons fa fa-ring text-danger pr-4 sa-menu"></span>Accueil</a>
                   </li>
-                 <span class="vertical-bar">&vert;</span>
+             <span class="vertical-bar la-menu">&vert;</span>
+         <li class="nav-item">
+              <a class="nav-link" href="#"><span class="phone-menu-icons fa-regular fa-circle fa-xs pr-4 sa-menu"></span>Nous contacter</a>
+                  </li>
+                 <span class="vertical-bar la-menu">&vert;</span>
     
         <li class="nav-item">
-               <a class="nav-link"  href="#">Parcourir les catégories</a>
+               <a class="nav-link"  href="#"><span class="phone-menu-icons fa fa-square pr-4 sa-menu"></span>Parcourir les catégories</a>
          </li>
-         <li class="nav-item text-Lfont"><button class="btn btn-outline-dark btn-bd-ra btn-nav"><i class="fa-regular fa-bell"></i> Mes alertes</button></li>  
-         <li class="nav-item">
-             <a class="nav-link text-Lfont"><span class="fa fa-search"></span></a>
+         <li class="nav-item sa-menu">
+            <a class="nav-link"  href="#"><span class="phone-menu-icons fa fa-egg pr-4 text-danger"></span>Afficher mon historique</a>
+        </li>
+     <li class="nav-item dropdown sa-menu">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="phone-menu-icons fa-regular fa-circle pr-4 text-danger fa-xsm mb-4"></span>Mon compte
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><span class="fa-regular fa-circle fa-xsm text-danger pr-4 mb-4"></span>Créer un compte</a>
+              <a class="dropdown-item open-connex"><span class="fa fa-arrow-left text-danger pr-4"></span>Me connecter</a>
+      </div>
+    </li>
+         <li class="nav-item text-Lfont la-menu"><button class="btn btn-outline-dark btn-bd-ra btn-nav"><i class="fa-regular fa-bell"></i> Mes alertes</button></li>  
+         <li class="nav-item la-menu">
+             <a class="nav-link text-Lfont"><span class="fa-regular fa-heart"></span></a>
          </li>
-         <li class="nav-item">
-          <a class="nav-link"><span class="fa fa-ring"></span></a>
-      </li> 
+         <li class="nav-item la-menu opn">
+          <a class="nav-link"><span class="fa fa-ring cursor-pointer openSidebar"></span></a>
+      </li>
+     <li class="nav-item dropdown la-menu opn">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa-regular fa-circle fa-xsm mb-4 pt-1"></span></a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><span class="fa-regular fa-circle fa-xsm text-danger pr-4 mb-4"></span>Créer un compte</a>
+              <a class="dropdown-item open-connex"><span class="fa fa-arrow-left text-danger pr-4"></span>Me connecter</a>
+      </div>
+    </li>
          </ul>
          </div>        
       </nav>
+     <div class="connex-positon">
+      <div class="connexion col-md-4">
+         <div class="container">
+           <div class="display-flex mt-5 mb-5">
+              <h4 class="text-Lfont pr-8">Connexion</h4>
+              <span class="fa fa-times pl-5 pt-2 cursor-pointer close-connex"></span>
+           </div>
+           <br>
+           <div class="g-connex mb-4">
+            <input class="btn-lg mr-4 w-100 text-md form-control" placeholder="Renseignez votre email">
+            <span class="text-sm">Requis</span>
+            <span class="pl-5 fa fa-angle-down"></span>
+            <span class="text-sm">Email</span>
+          </div>
+          <div class="g-connex mb-4">
+            <input class="btn-lg mr-4 w-100 text-md form-control">
+            <span class="text-sm">Requis</span>
+            <span class="pl-5 fa fa-angle-down"></span>
+            <span class="text-sm">Mot de passe</span>
+          </div>
+          <h5 class="text-danger mb-5 text-md">Mot de passe oublié</h5>
+          <button class="mb-4 form-control btn btn-danger btn-bd-ra">Me connecter</button>
+          <hr>
+          <br>
+          <button class="btn btn-outline-info form-control mb-3 btn-bd-ra">Continuer avec Google</button>
+          <button class="btn btn-outline-info form-control mb-4 btn-bd-ra">Continuer avec Facebook</button>
+          <hr>
+          <br>
+          <button class="btn btn-outline-danger form-control mb-5 btn-bd-ra">Créer mon compte</button>
+         </div>
+      </div>
+    </div>
      <div class="container-fluid">
         <h5 class="mt-4 mb-3 text-Lfont">Tous matériels d’occasion pour la catégorie <span class="pl-3 text-danger">“Guitares & basses”</span> - 845 résultats
         </h5>
         <h5 class="text-sm mt-2 mb-4">Voici tous les produits actuellement disponibles pour cette catégorie, vous pouvez affinez votre recherche avec les différents critères de sélection</h5>
         <div class="display-flex cat-btns">
             <div class="g-cat-cont mb-4">
-                 <button class="btn-lg mr-4 text-md"><span class="pb-0">Guitares & basses </span><span class="pl-5 fa fa-angle-down"></span></button>
+                 <button class="btn-lg mr-4 text-md"><span class="pr-7">Guitares & basses </span><span class="pl-5 fa fa-angle-down"></span></button>
                  <span class="text-sm">Catégorie</span>
             </div>
              <button class="mb-4 mr-4 btn-lg text-md">Prix<span class="pl-4 fa fa-angle-down"></span></button>
@@ -59,7 +110,7 @@
         </div>
         <div class="cat-btns-phone">
           <div class="g-cat-cont mb-4">
-            <button class="btn-lg mr-4 w-100 text-md"><span class="pr-8">Guitares & basses </span><span class="pl-5 fa fa-angle-down"></span></button>
+            <button class="btn-lg mr-4 w-100 text-md openSidebar"><span class="pr-8">Guitares & basses </span><span class="pl-5 fa fa-angle-down"></span></button>
             <span class="text-sm">Catégorie</span>
           </div>
           <div class="display-flex">
@@ -70,7 +121,7 @@
         </div>
         <div class="ca-res-ph-pa">
         <div class="cat-respon-phone col-md-3">
-          <span class="fa fa-times mb-4 mt-3 pl-10 cursor-pointer close-cat-res"></span>
+          <span class="fa fa-times mb-4 mt-3 pl-10 cursor-pointer close-cat-res text-Lfont"></span>
           <h5 class="text-mdfont text-sm mb-2 mt-2">Sélectionnez une catégorie</h5>
           <button class="mb-4 w-100 btn-curve"><span class="fa-regular fa-circle pr-4"></span>Renseignez un mot clé</button>
           <button class="btn-lg w-100 mb-3">Guitares & basses <span class="pl-5 fa fa-angle-down"></span></button>
@@ -84,8 +135,153 @@
            <br><br><br>
      </div>
      </div>
+     <div class="sidebar-position">
+     <div class="sidebar" id="sidebar">
+      <div class="container">
+      <span class="fa fa-times mb-4 mt-3 pl-10 cursor-pointer text-Lfont" id="closeSidebar"></span>
+      <h5 class="text-Lfont mb-5">Tous les filtres</h5>
+      <h5 class="text-Lfont text-sm">Prix</h5>
+      <div class="g-side-btn mb-4">
+        <button class="btn-lg mr-4 w-100 text-md"><span class="pr-10">100</span><span class="pl-5 fa fa-angle-down"></span></button>
+        <span class="text-sm">Prix minimum</span>
+      </div>
+      <div class="g-side-btn mb-4">
+        <button class="btn-lg mr-4 w-100 text-md"><span class="pr-10">100</span><span class="pl-5 fa fa-angle-down"></span></button>
+        <span class="text-sm">Prix minimum</span>
+      </div>
+      <hr>
+      <br>
+      <h5 class="mb-3 text text-Lfont">État du produit</h5>
+      <div class="row">
+          <div class="col-md-4 col-6 mb-4">
+            <div class="display-flex">
+             <input type="checkbox">
+             <h5 class="pl-2 text-md pt-2" class="form-inline">Neuf</h5>              
+            </div>
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <div class="display-flex">
+            <input type="checkbox">
+            <h5 class="pl-2 text-md pt-2">Comme neuf</h5>              
+            </div>
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <div class="display-flex">
+            <input type="checkbox">
+            <h5 class="pl-2 text-md pt-2">Occasion</h5>              
+            </div>
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <div class="display-flex">
+            <input type="checkbox">
+            <h5 class="pl-2 text-md pt-2">Abimé</h5>              
+            </div>
+          </div>
+          <div class="col-md-4 col-6 mb-4">
+            <div class="display-flex">
+            <input type="checkbox">
+            <h5 class="pl-2 text-md pt-2">Cassé</h5>              
+            </div>
+          </div>
+      </div>
+        <hr>
+        <br>
+        <h5 class="mb-4">Note du vendeur</h5>
+        <div class="display-flex mb-4">
+          <div class="cat-stars">
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <h5 class="pl-4 text-md">1 étoile et plus</h5>
+        </div>
+        <div class="display-flex mb-4">
+          <div class="cat-stars">
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <h5 class="pl-4 text-md">2 étoiles et plus</h5>
+        </div>
+        <div class="display-flex mb-4">
+          <div class="cat-stars">
+            <span class="fa fa-star text-danger"></span>
+            <span class="fa fa-star text-danger"></span>
+            <span class="fa fa-star text-danger"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <h5 class="pl-4 text-danger text-md">3 étoiles et plus</h5>
+        </div>
+        <div class="display-flex mb-4">
+          <div class="cat-stars">
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <h5 class="pl-4 text-md">4 étoiles et plus</h5>
+        </div>
+        <div class="display-flex mb-4">
+          <div class="cat-stars">
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+            <span class="fa fa-star text-dark"></span>
+          </div>
+          <h5 class="pl-4 text-md">5 étoiles</h5>
+        </div>
+        <hr>
+        <br>
+      <h5 class="text-Lfont mb-4">Tri</h5>
+        <div class="display-flex">
+           <input type="radio">
+           <h5 class="text-sm pl-3 pt-2">Les plus chers en premier</h5>
+        </div>
+        <div class="display-flex">
+          <input type="radio">
+          <h5 class="text-sm pl-3 pt-2">Les plus chers en premier</h5>
+       </div>
+       <div class="display-flex">
+        <input type="radio">
+        <h5 class="text-sm pl-3 pt-2">Les plus chers en premier</h5>
+     </div>
+     <div class="display-flex mb-4">
+      <input type="radio">
+      <h5 class="text-sm pl-3 pt-2">Les plus chers en premier</h5>
+   </div>
+      <hr>
+      <br>
+      <h5 class="text-Lfont mb-4">Expédition</h5>
+      <div class="display-flex mb-4">
+         <h5 class="pr-8 text-sm">Expédition disponible</h5>
+         <span class="fa fa-toggle-off fa-2x pr-2">
+      </div>
+      <hr>
+      <br>
+      <h5 class="text-Lfont mb-4">Localisation</h5>
+      <div class="display-flex mb-4">
+        <h5 class="pr-8 text-sm">Uniquement en Belgique</h5>
+        <span class="fa fa-toggle-on fa-2x pr-2 text-danger"></span>
+      </div>
+       <hr>
+       <br>
+       <div class="display-flex sa-last-btn">
+       <h5 class="text-sm text-underline pr-8 mt-3">Réinitialise</h5>
+       <button class="btn btn-whitesmoke mr-3">Annuler</button>     
+       <button class="btn btn-danger mr-5">Valider</button>  
+       </div>
+      </div>
+     </div>
+    </div>
         <div class="row">
-            <div class="cat-respon col-md-3">
+            <div class="cat-respon col-md-3"> 
                  <button class="btn btn-outline-dark mb-3 text-sm w-100">Gui-tares Elec-triques<span class="pl-4">4 032</span></button>
                  <button class="btn btn-li-danger mb-3 text-sm w-100">Gui-tares Clas-siques
                   <span class="pl-4">2 126</span></button>
@@ -360,7 +556,9 @@
        </div>
   </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="assets/js/main.js"></script>
     </body>
     </html>
