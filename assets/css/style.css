@@ -9942,6 +9942,7 @@
       color: #000 !important;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       margin-top: 20px;
+      font-size: 15px;
      } 
   
    .fa-bars{
@@ -10236,6 +10237,10 @@ input::placeholder {
     border:10px solid white;
 }
 
+.simi-items div img{
+  height: 100px !important;
+}
+
 .men-w-con{
      perspective: 1000px;
 }
@@ -10262,6 +10267,15 @@ textarea{
 .card-item{
     background-color: rgb(228, 223, 223);
     margin:10px;
+}
+ 
+.card-item:not(img){
+      width: 250px !important;
+      height: 250px;
+}
+
+img.card-item{
+  height: 235px;
 }
 
 .card-item h5:nth-child(2){
@@ -10385,6 +10399,9 @@ button:focus{
 }
 
 @media(max-width: 768px){
+  .simi-items div img{
+    height: 100% !important;
+  }
     .home-nav{
         margin-bottom: 100px;
     }
@@ -10487,8 +10504,6 @@ button:focus{
   .connexion{
     right: 0 !important;
   }
-
-
 }
 
  @media(min-width:768px){
@@ -10513,6 +10528,10 @@ button:focus{
   .body-img{
     display: none;
   }
+
+  .simi-items div.col-lg-2{
+    height: 280px;
+  }
  }
 
 .text-mdfont{
@@ -10535,7 +10554,7 @@ button:focus{
 
 .simi-items div.col-lg-2{
   background-color: whitesmoke;
-  border:5px solid whitesmoke;
+  border:5px solid white;
   margin:auto auto;
 }
 
@@ -10552,7 +10571,7 @@ button:focus{
 }
 
 .detail-down-si .row div button{
-   min-width: 160px;
+   min-width: fit-content;
    border-radius: 5px;
 } 
 
@@ -10908,4 +10927,9 @@ button.toggle-cat-respon{
 
 .connex-home{
   top: -230px !important;
+}
+
+.card-item img{
+  height: 100px !important;
+  width: 100px !important;
 }
