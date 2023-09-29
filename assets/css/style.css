@@ -10383,6 +10383,9 @@ button:focus{
 }
 
 @media(max-width: 768px){
+  .la-card-item{
+    height: fit-content !important;
+}
   .simi-items div img{
     height: 100% !important;
   }
