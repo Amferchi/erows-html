@@ -4505,22 +4505,6 @@
     margin-left: -0.625rem;
   }
   
-  .card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1.25rem;
-  }
-  
-  .card-img,
-  .card-img-top,
-  .card-img-bottom {
-    flex-shrink: 0;
-    width: 100%;
-  }
-  
   .card-deck .card {
     margin-bottom: 15px;
   }
@@ -9934,7 +9918,7 @@
     right: 30px;
     bottom: 30px;
     z-index: 11;
-    animation: action 1s infinite alternate;
+    animation: action 1s infinite alternate;  
   }
   
   @media(max-width: 992px){
@@ -10205,7 +10189,7 @@ nav ul li a{
 }
 
 .btn-nav{
-    height: 50px !important;
+    height: fit-content !important;
 }
 
 nav ul li .fa-bell{
@@ -10271,7 +10255,7 @@ textarea{
  
 .card-item:not(img){
       width: 250px !important;
-      height: 250px;
+      height: 260px;
 }
 
 img.card-item{
@@ -10294,10 +10278,10 @@ img.card-item{
      background-color: white;    
 }
 
-/*.card-img{
+.card-img{
   width: 100%;
-  height: 60%;
-} */
+  height: 250px !important;
+} 
 
 .card-item .display-flex{
   padding-bottom: 10px;
@@ -10906,6 +10890,18 @@ button.toggle-cat-respon{
   top: -100px;
   z-index: -1;
   left: 5px;
+}
+
+@media (max-width:1200px) and (min-width:992px){
+  .card-item:not(img){
+    margin:auto auto;
+    border:5px solid #F5F5F5;
+    height: fit-content !important;
+  }
+
+  .nav-item .nav-link{
+    font-size:  small !important;
+  }
 }
 
 @media (max-width: 1200px) {
